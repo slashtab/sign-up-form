@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    display: flex;
+    margin: 0 10% 0 10%;
+    overflow: hidden;
+}
+
+.logo-text{
+    margin-top: 27%;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    color: rgb(149, 150, 151);
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+}
+
+.left{
+    box-sizing: border-box;
+    background-image: url(images/fulcrum.png);
+    height: 130vh;
+    width: 1400px;
+}
+
+.top-intro>h1{
+    margin-top: 1rem;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20px 0 10px;
+    background-color: rgb(197, 197, 197);
+    width: 1400px;
+}
+
+.form-container{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 3rem;
+}
+
+.form-container>p{
+    margin-bottom: 1rem;
+}
+.from-cell{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+form input{
+    padding: 7px ;
+    border: 1px solid;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.last{
+    margin-top: 3rem;
+}
+
+button{
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 7rem;
+}
